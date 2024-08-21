@@ -4,44 +4,47 @@
   <br>
   Programación en Redes 
 </h1>
-<hr/>
+<br>
+
+***
 
 [![forthebadge](https://forthebadge.com/images/badges/docker-container.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c.svg)](https://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
+<br>
 
 Repositorio oficial de la materia Programación en Redes. Departamento de Ingeniería - UP  
-
+**Profesor Ing Diego Marafetti**
 
 # Contenidos
 
 - [Requerimientos](#Requerimientos)
-  - [Flags](#flags)
-  - [Combination of flags](#combination-of-flags)
 - [Entorno de desarrollo](#installation)
+  - [Docker](#docker)
 - [Configuracion recomendada](#recommended-configurations)
 - [Contributing](#contributing)
 - [Contacto](#contacto)
 
-## 🚀 About Me
 
-Profesor Ing Diego Marafetti
+## Requerimientos 🚀
 
+- Descargar e instalar [Visual Studio Code](https://code.visualstudio.com/Download)
+- Descargar e instalar [Docker](https://www.docker.com/). Esto puede variar según el sistema operativo.
+- Instalar las siguiente extensiones de VSCode
+  - C/C++
+  - C/C++ Extension Pack
+  - CMake
+  - CMake Tools
+  - Docker
+  - Dev Containers
 
-## Requerimientos
+## Entornos de Desarrollo
 
+> [!NOTE]
+> Se recomienda la configuración utilizando Docker.
 
-TODO
-
-
-## Entorno de Desarrollo
-
-
-1. Instalar Visual Studio Code
-
-
-## Docker
+### Docker
 
 Se provee un docker container con todas las tools necesarias para compilación y debugging de aplicaciónes. Para instalar el entorno ejecutar el docker compose detached en el root del proyecto. 
 
