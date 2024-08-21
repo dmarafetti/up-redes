@@ -11,7 +11,7 @@
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 
 
-Repositorio oficial de la materia Programación en Redes. Departamento de Ingeniería - UP
+Repositorio oficial de la materia Programación en Redes. Departamento de Ingeniería - UP  
 
 
 # Contenidos
