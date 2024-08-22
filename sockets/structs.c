@@ -25,7 +25,7 @@ typedef struct alignmentTest {
 // x(xxx),xxxx-xxxx,x(xxx)
 
 
-int main(int argc, char *argv) {
+int main(int argc, char **argv) {
 
     // create tcp socket
     int socketFd = socket(AF_INET, SOCK_STREAM, 0);

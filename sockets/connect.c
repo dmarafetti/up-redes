@@ -51,11 +51,13 @@ void *establishConnection(void *params) {
 
     }
 
+    return 0;
+
 }
 
 
 
-int main(int argc, char *argv) {
+int main(int argc, char **argv) {
 
     pthread_t threads[THREADS_COUNT];
 
@@ -76,7 +78,7 @@ int main(int argc, char *argv) {
 
     printf("main thread finished... \n");
 
-    
+    return 0;
 
 }
 

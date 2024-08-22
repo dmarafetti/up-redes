@@ -7,7 +7,7 @@ SRC = main.c
 
 # Output directory and binary name
 OUT_DIR = dist
-OUT_BIN = $(OUT_DIR)/fork
+OUT_BIN = $(OUT_DIR)/threads
 
 # Target to build the binary
 all: $(OUT_BIN)
