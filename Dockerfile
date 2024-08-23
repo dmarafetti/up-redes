@@ -5,17 +5,18 @@ LABEL mantainer="Diego"
 # update and install dependencies
 RUN apt-get update \
     && apt-get install -y \
-        software-properties-common \
-        wget \
-        git \
-        curl \
-        netcat \
-        strace \
-        iproute2 \
-        hping3 \
-        gdb \
-        net-tools \
-        vim
+    software-properties-common \
+    wget \
+    git \
+    curl \
+    netcat \
+    strace \
+    iproute2 \
+    hping3 \
+    gdb \
+    net-tools \
+    vim \
+    htop
 
 WORKDIR /home
 
