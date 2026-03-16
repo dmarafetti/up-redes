@@ -9,6 +9,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <sys/stat.h>
+#include <sys/wait.h>
 #include <unistd.h>
 
 
@@ -66,7 +67,7 @@ int main(int argc, const char **argv) {
         
         
         write(fd, "123", 3);
-        printf("File descriptor: %d - offset: %lld\n", fd, lseek(fd, 0, SEEK_CUR));
+        printf("File descriptor: %d - offset: %ld\n", fd, (long)lseek(fd, 0, SEEK_CUR));
         close(fd);
         
         printf("child end.\n");
@@ -91,7 +92,7 @@ int main(int argc, const char **argv) {
         write(fd, "456", 3); //10.0.0.1/home/test.txt = 10ms / 500ms
         
         
-        printf("File descriptor: %d - offset: %lld\n", fd, lseek(fd, 0, SEEK_CUR));
+        printf("File descriptor: %d - offset: %ld\n", fd, (long)lseek(fd, 0, SEEK_CUR));
         close(fd);
         
         printf("Retrieved pid: %d, parent end.\n", pid);
